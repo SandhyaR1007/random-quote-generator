@@ -19,6 +19,7 @@ body {
 
 .card {
   position: absolute;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -52,4 +53,11 @@ body {
 
 .btn:focus {
   outline: none;
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    position: absolute;
+    width: 100%;
+  }
 }
