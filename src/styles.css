@@ -1,6 +1,12 @@
+:root {
+  --main-color: #a55eea;
+  --white-color: #fff;
+}
 body {
   text-align: center;
   transition: background-color 0.5s ease-in;
+  background-color: var(--main-color);
+  color: var(--main-color);
 }
 .App {
   /* display:flex;
@@ -15,8 +21,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 40%;
-  font-size: 1.3rem;
-  background-color: white;
+  font-size: 1.5rem;
+  background-color: var(--white-color);
   padding: 0.5rem 0.8rem;
   box-shadow: 0px 2px 9px 0px rgb(75, 75, 75);
   transition: color 0.5s ease-in;
@@ -33,9 +39,10 @@ body {
   padding: 0.5rem 1.5rem;
   border: none;
   border-radius: 0.4rem;
-  color: white;
+  color: var(--white-color);
   margin: 0.5rem;
   transition: background-color 0.5s ease-in;
+  background-color: var(--main-color);
 }
 .btn:hover {
   cursor: pointer;
