@@ -16,11 +16,9 @@ export default function App() {
 
   try {
     useEffect(() => {
-      setTimeout(() => {
-        fetch("https://api.quotable.io/random")
-          .then((res) => res.json())
-          .then((json) => setData(json));
-      }, 0.7);
+      fetch("https://api.quotable.io/random")
+        .then((res) => res.json())
+        .then((json) => setData(json));
     });
   } catch (error) {
     console.log(error);
