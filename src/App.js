@@ -7,8 +7,8 @@ import colors from "./colors";
 export default function App() {
   let rand = 0;
   const [display, setDisplay] = useState({
-    content: "Believe It",
-    author: "Naruto Uzumaki"
+    content: "Be the change that you wish to see in the world.",
+    author: "Mahatma Gandhi"
   });
 
   const [rang, setRang] = useState("");
