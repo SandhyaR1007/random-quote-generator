@@ -58,6 +58,6 @@ body {
 @media screen and (max-width: 400px) {
   .card {
     position: absolute;
-    width: 100%;
+    width: 80%;
   }
 }
