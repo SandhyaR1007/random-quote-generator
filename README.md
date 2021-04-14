@@ -1,2 +1,2 @@
 # random-quote-generator
-Created with CodeSandbox
+Generates a random insipiration quote.
